@@ -1,0 +1,22 @@
+<div class="task">
+  <div class="task__bar">
+    <h2 class="task__h2">
+      <i class="task__icon fas fa-plus"></i>TODO APP - Create Task<i
+        class="task__icon fas fa-plus"
+      ></i>
+    </h2>
+  </div>
+  <div class="card">
+    <legend for="todoName">
+      <h2 class="task__title">Add your task</h2>
+    </legend>
+    <input
+      id="todoName"
+      type="text"
+      v-model="taskName"
+      placeholder="Enter your task here..."
+      @keyup.enter="addTask()"
+    />
+    <button @click="addTask()" type="button" class="button">Add</button>
+  </div>
+</div>

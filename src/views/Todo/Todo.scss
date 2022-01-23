@@ -1,0 +1,63 @@
+.task {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  .task__bar {
+    background-color: #121317;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .task__h2 {
+      text-align: center;
+      color: white;
+      padding: 1.5rem;
+      font-size: 1.25rem;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      text-decoration: underline;
+      @media screen and (min-width: 1000px) {
+        font-size: 1.5rem;
+      }
+      .task__icon {
+        color: #ffeb4d;
+        margin: 0 1rem;
+      }
+    }
+  }
+  .card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: #121317;
+    padding: 2rem;
+    .task__title {
+      color: white;
+      text-transform: uppercase;
+    }
+    input {
+      margin-top: 1rem;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      border: none;
+      font-size: 1.1rem;
+    }
+    .button {
+      margin-top: 1rem;
+      border-radius: 10px;
+      font-size: 18px;
+      color: white;
+      border: 2px solid #ffeb4d;
+      background-color: transparent;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .button:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .home__bar {
+    background-color: #121317;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    .home__title {
+      text-align: center;
+    }
+  }
+  h2 {
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    .home__icon {
+      color: #ffeb4d;
+      margin: 0 1rem;
+    }
+  }
+  .main__table {
+    margin-top: 10rem;
+    width: 400px;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  tbody {
+    background-color: #bec7c7;
+  }
+  thead {
+    background-color: #121317;
+    height: 70px;
+    width: 250px;
+  }
+  th {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+  }
+  td {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+    .table__icon-deleted {
+      color: #f43d16;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .table__icon-completed {
+      color: #08b65a;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+}
